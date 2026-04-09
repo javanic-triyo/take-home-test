@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3 rem;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 1.5 rem;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    color: white;
+    font-size: 1.2 rem;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.source {
+    text-align: center;
+    color: white;
+    font-size: 1 rem;
+    margin-bottom: 20px;
+    position: flex;
+    border-radius: 12px;
+}
+
+.double {
+    justify-content: center;
+    
+}
+
+/* container */
+
+.domino-container {
+    display: flex;
+    overflow-x: auto;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 1px;
+}
+
+.domino {
+    width: 50px;
+  height: 70px;
+  background: white;
+  border: 4px solid #1e2937;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  flex-shrink: 0;
+}
+
+.half {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1e2937;
+}
+
+.divider {
+  height: 4%;
+  background: black;
+}
+
+button {
+    background-color: cyan;
+    color: black;
+    border: black solid 2px;
+    padding: 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+remove-total {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
